@@ -70,7 +70,7 @@ int main() {
             removeFile(file);
 
         removeFile("zip.ps1");
-        removeFile("app.exe");
+        removeFile("data.txt");
         cerr << "Complete removing files!\n";
 
         cerr << "\n";
