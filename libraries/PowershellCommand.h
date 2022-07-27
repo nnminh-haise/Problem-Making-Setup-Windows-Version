@@ -1,3 +1,6 @@
+#ifndef POWERSHELL_COMMAND
+#define POWERSHELL_COMMAND
+
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -34,15 +37,10 @@ void removeFile(string file) {
     return;
 }
 
-void removeFiles(vector <string> files) {
-    for (string file: files) {
-        removeFile(file);
-    }
-    return;
-}
-
 void executeFile(string filename) {
     string str = "powershell -ExecutionPolicy Bypass -F " + filename;
     system(str.c_str());
     return;
 }
+
+#endif

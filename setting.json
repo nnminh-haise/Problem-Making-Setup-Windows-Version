@@ -1,5 +1,4 @@
 {
-    "numberOfTestcase": 40,
-    "createLog": false,
-    "removeClusterFiles": true
+    "number_of_testcases": 40,
+    "remove_temporary_files": true
 }
